@@ -1,0 +1,23 @@
+.player {
+  margin: 2% auto;
+
+  input {
+    width: 20%;
+  }
+}
+
+.time-control {
+  p {
+    display: inline;
+    margin: auto 3%;
+  }
+}
+
+.play-control {
+  margin: 3% 40%;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

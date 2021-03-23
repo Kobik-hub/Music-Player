@@ -1,0 +1,36 @@
+.library {
+  position: fixed;
+  text-align: left;
+
+  width: 20%;
+
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  transition: all 1s ease-out;
+}
+
+.LibraryActive {
+  // visibility: hidden;
+
+  transform: translateX(-500px);
+  transition: all 1s ease-out;
+}
+
+.library-item {
+  color: rgb(97, 80, 80);
+  img {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+    padding-right: 3%;
+  }
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.active {
+  background-color: rgb(222, 224, 231);
+}
